@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="36" failures="0" name="zopaTest" time="0.02" errors="6" skipped="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.7+8-LTS"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/AbdullahiHussein/Documents/Zopa"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/AbdullahiHussein/Documents/Zopa"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.7+8-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/n1/msy8wwm12m5ghv9zjs6q7bf00000gp/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/AbdullahiHussein/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/AbdullahiHussein"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="AbdullahiHussein"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 56000 | 1500 | 24 | true | 9.5 | 200 |" name="Given registered customer &quot;c0b0248d-c7f1-4589-929d-34f7d000c032&quot; and Current salary 56000 and amount to borrow 1500 and number of months to pay 24 ." time="0.002"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 56000 | 1500 | 24 | true | 9.5 | 200 |" name="When I quote a loan" time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 56000 | 1500 | 24 | true | 9.5 | 200 |" name="Then I shoud get &quot;true&quot; and &quot;9.5&quot; offered and 200" time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 56000 | 1500 | 24 | true | 9.5 | 200 |" name="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 56000 | 1500 | 24 | true | 9.5 | 200 |" time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 36000 | 1500 | 24 | true | 6.2 | 200 |" name="Given registered customer &quot;c0b0248d-c7f1-4589-929d-34f7d000c032&quot; and Current salary 36000 and amount to borrow 1500 and number of months to pay 24 ." time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 36000 | 1500 | 24 | true | 6.2 | 200 |" name="When I quote a loan" time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 36000 | 1500 | 24 | true | 6.2 | 200 |" name="Then I shoud get &quot;true&quot; and &quot;6.2&quot; offered and 200" time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 36000 | 1500 | 24 | true | 6.2 | 200 |" name="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 36000 | 1500 | 24 | true | 6.2 | 200 |" time="0.001"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 46000 | 1500 | 12 | true | 7.2 | 200 |" name="Given registered customer &quot;c0b0248d-c7f1-4589-929d-34f7d000c032&quot; and Current salary 46000 and amount to borrow 1500 and number of months to pay 12 ." time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 46000 | 1500 | 12 | true | 7.2 | 200 |" name="When I quote a loan" time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 46000 | 1500 | 12 | true | 7.2 | 200 |" name="Then I shoud get &quot;true&quot; and &quot;7.2&quot; offered and 200" time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 46000 | 1500 | 12 | true | 7.2 | 200 |" name="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 46000 | 1500 | 12 | true | 7.2 | 200 |" time="0.001"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 46000 | 2500 | 12 | true | 6.4 | 200 |" name="Given registered customer &quot;c0b0248d-c7f1-4589-929d-34f7d000c032&quot; and Current salary 46000 and amount to borrow 2500 and number of months to pay 12 ." time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 46000 | 2500 | 12 | true | 6.4 | 200 |" name="When I quote a loan" time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 46000 | 2500 | 12 | true | 6.4 | 200 |" name="Then I shoud get &quot;true&quot; and &quot;6.4&quot; offered and 200" time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 46000 | 2500 | 12 | true | 6.4 | 200 |" name="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 46000 | 2500 | 12 | true | 6.4 | 200 |" time="0.001"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 1001 | 12 | true | 6.4 | 200 |" name="Given registered customer &quot;c0b0248d-c7f1-4589-929d-34f7d000c032&quot; and Current salary 25000 and amount to borrow 1001 and number of months to pay 12 ." time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 1001 | 12 | true | 6.4 | 200 |" name="When I quote a loan" time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 1001 | 12 | true | 6.4 | 200 |" name="Then I shoud get &quot;true&quot; and &quot;6.4&quot; offered and 200" time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 1001 | 12 | true | 6.4 | 200 |" name="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 1001 | 12 | true | 6.4 | 200 |" time="0.001"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 24999 | 2000 | 12 | false | null | 200 |" name="Given registered customer &quot;c0b0248d-c7f1-4589-929d-34f7d000c032&quot; and Current salary 24999 and amount to borrow 2000 and number of months to pay 12 ." time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 24999 | 2000 | 12 | false | null | 200 |" name="When I quote a loan" time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 24999 | 2000 | 12 | false | null | 200 |" name="Then I shoud get &quot;false&quot; and &quot;null&quot; offered and 200" time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 24999 | 2000 | 12 | false | null | 200 |" name="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 24999 | 2000 | 12 | false | null | 200 |" time="0.001"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 999 | 24 | null | null | 400 |" name="Given registered customer &quot;c0b0248d-c7f1-4589-929d-34f7d000c032&quot; and Current salary 25000 and amount to borrow 999 and number of months to pay 24 ." time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 999 | 24 | null | null | 400 |" name="When I quote a loan" time="0.003">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at QuoteLoan.processQuote(QuoteLoan.java:44)
+	at QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)
+	at ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:8)
+</error>
+    <system-out>{&quot;amountToBorrow&quot;:999,&quot;currentSalary&quot;:25000,&quot;termLength&quot;:24}
+{&quot;message&quot;: &quot;999 is outside the lending range: 1000 &lt;= TOTAL &lt;= 25000&quot;}
+
+null  null  400
+</system-out>
+  </testcase>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 999 | 24 | null | null | 400 |" name="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 999 | 24 | null | null | 400 |" time="0.003">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at QuoteLoan.processQuote(QuoteLoan.java:44)
+	at QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)
+	at ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:8)
+</error>
+  </testcase>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 999 | 24 | null | null | 400 |" name="Then I shoud get &quot;null&quot; and &quot;null&quot; offered and 400" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 25001 | 36 | null | null | 400 |" name="Given registered customer &quot;c0b0248d-c7f1-4589-929d-34f7d000c032&quot; and Current salary 25000 and amount to borrow 25001 and number of months to pay 36 ." time="0"/>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 25001 | 36 | null | null | 400 |" name="When I quote a loan" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at QuoteLoan.processQuote(QuoteLoan.java:44)
+	at QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)
+	at ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:8)
+</error>
+    <system-out>{&quot;amountToBorrow&quot;:25001,&quot;currentSalary&quot;:25000,&quot;termLength&quot;:36}
+{&quot;message&quot;: &quot;25001 is outside the lending range: 1000 &lt;= TOTAL &lt;= 25000&quot;}
+
+null  null  400
+</system-out>
+  </testcase>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 25001 | 36 | null | null | 400 |" name="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 25001 | 36 | null | null | 400 |" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at QuoteLoan.processQuote(QuoteLoan.java:44)
+	at QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)
+	at ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:8)
+</error>
+  </testcase>
+  <testcase classname="| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 25001 | 36 | null | null | 400 |" name="Then I shoud get &quot;null&quot; and &quot;null&quot; offered and 400" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| abdul | 56000 | 1500 | 24 | 404 |" name="Given Unregistered customer &quot;abdul&quot; and Current salary 56000 and amount to borrow 1500 and number of months to pay 24 ." time="0"/>
+  <testcase classname="| abdul | 56000 | 1500 | 24 | 404 |" name="When I quote a loan" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at QuoteLoan.processQuote(QuoteLoan.java:44)
+	at QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)
+	at ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:25)
+</error>
+    <system-out>{&quot;amountToBorrow&quot;:1500,&quot;currentSalary&quot;:56000,&quot;termLength&quot;:24}
+{&quot;message&quot;: &quot;No Member exists for memberId=abdul&quot;}
+
+null  null  404
+</system-out>
+  </testcase>
+  <testcase classname="| abdul | 56000 | 1500 | 24 | 404 |" name="| abdul | 56000 | 1500 | 24 | 404 |" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at QuoteLoan.processQuote(QuoteLoan.java:44)
+	at QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)
+	at ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:25)
+</error>
+  </testcase>
+  <testcase classname="| abdul | 56000 | 1500 | 24 | 404 |" name="Then I shoud get  statusCode 404" time="0.001">
+    <skipped/>
+  </testcase>
+</testsuite>

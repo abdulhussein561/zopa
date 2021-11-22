@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: zopaTest
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 0, Errors: 6, Skipped: 3, Time elapsed: 11.657 sec <<< FAILURE!
+When I quote a loan(| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 999 | 24 | null | null | 400 |)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException
+	at QuoteLoan.processQuote(QuoteLoan.java:44)
+	at QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)
+	at ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:8)
+
+| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 999 | 24 | null | null | 400 |  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException
+	at QuoteLoan.processQuote(QuoteLoan.java:44)
+	at QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)
+	at ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:8)
+
+When I quote a loan(| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 25001 | 36 | null | null | 400 |)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at QuoteLoan.processQuote(QuoteLoan.java:44)
+	at QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)
+	at ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:8)
+
+| c0b0248d-c7f1-4589-929d-34f7d000c032 | 25000 | 25001 | 36 | null | null | 400 |  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at QuoteLoan.processQuote(QuoteLoan.java:44)
+	at QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)
+	at ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:8)
+
+When I quote a loan(| abdul | 56000 | 1500 | 24 | 404 |)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at QuoteLoan.processQuote(QuoteLoan.java:44)
+	at QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)
+	at ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:25)
+
+| abdul | 56000 | 1500 | 24 | 404 |  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at QuoteLoan.processQuote(QuoteLoan.java:44)
+	at QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)
+	at ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:25)
+

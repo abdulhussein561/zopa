@@ -1,0 +1,857 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Quote a loan for Registered Qanat customer",
+        "description": "",
+        "id": "loan-quotation-for-qantas-customer;quote-a-loan-for-registered-qanat-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 219290555,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "registered customer \"c0b0248d-c7f1-4589-929d-34f7d000c032\" and Current salary 56000 and amount to borrow 1500 and number of months to pay 24 .",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c0b0248d-c7f1-4589-929d-34f7d000c032",
+                  "offset": 21
+                },
+                {
+                  "val": "56000",
+                  "offset": 78
+                },
+                {
+                  "val": "1500",
+                  "offset": 105
+                },
+                {
+                  "val": "24",
+                  "offset": 138
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.registered_customer_and_Current_salary_and_amount_to_borrow_and_number_of_months_to_pay(String,int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2153339381,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I quote a loan",
+            "match": {
+              "location": "QuoteLoan_step_definitions.i_quote_a_loan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1586714,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I shoud get \"true\" and \"9.5\" offered and 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 13
+                },
+                {
+                  "val": "9.5",
+                  "offset": 24
+                },
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.i_shoud_get_and_offered_and(String,String,int)"
+            },
+            "matchedColumns": [
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegisteredQantascustomer"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Quote a loan for Registered Qanat customer",
+        "description": "",
+        "id": "loan-quotation-for-qantas-customer;quote-a-loan-for-registered-qanat-customer;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 183628,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "registered customer \"c0b0248d-c7f1-4589-929d-34f7d000c032\" and Current salary 36000 and amount to borrow 1500 and number of months to pay 24 .",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c0b0248d-c7f1-4589-929d-34f7d000c032",
+                  "offset": 21
+                },
+                {
+                  "val": "36000",
+                  "offset": 78
+                },
+                {
+                  "val": "1500",
+                  "offset": 105
+                },
+                {
+                  "val": "24",
+                  "offset": 138
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.registered_customer_and_Current_salary_and_amount_to_borrow_and_number_of_months_to_pay(String,int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 392889406,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I quote a loan",
+            "match": {
+              "location": "QuoteLoan_step_definitions.i_quote_a_loan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123459,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I shoud get \"true\" and \"6.2\" offered and 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 13
+                },
+                {
+                  "val": "6.2",
+                  "offset": 24
+                },
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.i_shoud_get_and_offered_and(String,String,int)"
+            },
+            "matchedColumns": [
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegisteredQantascustomer"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Quote a loan for Registered Qanat customer",
+        "description": "",
+        "id": "loan-quotation-for-qantas-customer;quote-a-loan-for-registered-qanat-customer;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 178051,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "registered customer \"c0b0248d-c7f1-4589-929d-34f7d000c032\" and Current salary 46000 and amount to borrow 1500 and number of months to pay 12 .",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c0b0248d-c7f1-4589-929d-34f7d000c032",
+                  "offset": 21
+                },
+                {
+                  "val": "46000",
+                  "offset": 78
+                },
+                {
+                  "val": "1500",
+                  "offset": 105
+                },
+                {
+                  "val": "12",
+                  "offset": 138
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.registered_customer_and_Current_salary_and_amount_to_borrow_and_number_of_months_to_pay(String,int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1174712862,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I quote a loan",
+            "match": {
+              "location": "QuoteLoan_step_definitions.i_quote_a_loan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111964,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I shoud get \"true\" and \"7.2\" offered and 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 13
+                },
+                {
+                  "val": "7.2",
+                  "offset": 24
+                },
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.i_shoud_get_and_offered_and(String,String,int)"
+            },
+            "matchedColumns": [
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegisteredQantascustomer"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Quote a loan for Registered Qanat customer",
+        "description": "",
+        "id": "loan-quotation-for-qantas-customer;quote-a-loan-for-registered-qanat-customer;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 212931,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "registered customer \"c0b0248d-c7f1-4589-929d-34f7d000c032\" and Current salary 46000 and amount to borrow 2500 and number of months to pay 12 .",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c0b0248d-c7f1-4589-929d-34f7d000c032",
+                  "offset": 21
+                },
+                {
+                  "val": "46000",
+                  "offset": 78
+                },
+                {
+                  "val": "2500",
+                  "offset": 105
+                },
+                {
+                  "val": "12",
+                  "offset": 138
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.registered_customer_and_Current_salary_and_amount_to_borrow_and_number_of_months_to_pay(String,int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 668246845,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I quote a loan",
+            "match": {
+              "location": "QuoteLoan_step_definitions.i_quote_a_loan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158282,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I shoud get \"true\" and \"6.4\" offered and 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 13
+                },
+                {
+                  "val": "6.4",
+                  "offset": 24
+                },
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.i_shoud_get_and_offered_and(String,String,int)"
+            },
+            "matchedColumns": [
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegisteredQantascustomer"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Quote a loan for Registered Qanat customer",
+        "description": "",
+        "id": "loan-quotation-for-qantas-customer;quote-a-loan-for-registered-qanat-customer;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 142592,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "registered customer \"c0b0248d-c7f1-4589-929d-34f7d000c032\" and Current salary 25000 and amount to borrow 1001 and number of months to pay 12 .",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c0b0248d-c7f1-4589-929d-34f7d000c032",
+                  "offset": 21
+                },
+                {
+                  "val": "25000",
+                  "offset": 78
+                },
+                {
+                  "val": "1001",
+                  "offset": 105
+                },
+                {
+                  "val": "12",
+                  "offset": 138
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.registered_customer_and_Current_salary_and_amount_to_borrow_and_number_of_months_to_pay(String,int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1753454064,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I quote a loan",
+            "match": {
+              "location": "QuoteLoan_step_definitions.i_quote_a_loan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105481,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I shoud get \"true\" and \"6.4\" offered and 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 13
+                },
+                {
+                  "val": "6.4",
+                  "offset": 24
+                },
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.i_shoud_get_and_offered_and(String,String,int)"
+            },
+            "matchedColumns": [
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegisteredQantascustomer"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Quote a loan for Registered Qanat customer",
+        "description": "",
+        "id": "loan-quotation-for-qantas-customer;quote-a-loan-for-registered-qanat-customer;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 161215,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "registered customer \"c0b0248d-c7f1-4589-929d-34f7d000c032\" and Current salary 24999 and amount to borrow 2000 and number of months to pay 12 .",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c0b0248d-c7f1-4589-929d-34f7d000c032",
+                  "offset": 21
+                },
+                {
+                  "val": "24999",
+                  "offset": 78
+                },
+                {
+                  "val": "2000",
+                  "offset": 105
+                },
+                {
+                  "val": "12",
+                  "offset": 138
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.registered_customer_and_Current_salary_and_amount_to_borrow_and_number_of_months_to_pay(String,int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 736619971,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I quote a loan",
+            "match": {
+              "location": "QuoteLoan_step_definitions.i_quote_a_loan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138132,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I shoud get \"false\" and \"null\" offered and 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 13
+                },
+                {
+                  "val": "null",
+                  "offset": 25
+                },
+                {
+                  "val": "200",
+                  "offset": 43
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.i_shoud_get_and_offered_and(String,String,int)"
+            },
+            "matchedColumns": [
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegisteredQantascustomer"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Quote a loan for Registered Qanat customer",
+        "description": "",
+        "id": "loan-quotation-for-qantas-customer;quote-a-loan-for-registered-qanat-customer;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 160877,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "registered customer \"c0b0248d-c7f1-4589-929d-34f7d000c032\" and Current salary 25000 and amount to borrow 999 and number of months to pay 24 .",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c0b0248d-c7f1-4589-929d-34f7d000c032",
+                  "offset": 21
+                },
+                {
+                  "val": "25000",
+                  "offset": 78
+                },
+                {
+                  "val": "999",
+                  "offset": 105
+                },
+                {
+                  "val": "24",
+                  "offset": 137
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.registered_customer_and_Current_salary_and_amount_to_borrow_and_number_of_months_to_pay(String,int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1582501487,
+              "error_message": "java.lang.NullPointerException\n\tat QuoteLoan.processQuote(QuoteLoan.java:44)\n\tat QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)\n\tat ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:8)\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I quote a loan",
+            "match": {
+              "location": "QuoteLoan_step_definitions.i_quote_a_loan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I shoud get \"null\" and \"null\" offered and 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "null",
+                  "offset": 13
+                },
+                {
+                  "val": "null",
+                  "offset": 24
+                },
+                {
+                  "val": "400",
+                  "offset": 42
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.i_shoud_get_and_offered_and(String,String,int)"
+            },
+            "matchedColumns": [
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegisteredQantascustomer"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Quote a loan for Registered Qanat customer",
+        "description": "",
+        "id": "loan-quotation-for-qantas-customer;quote-a-loan-for-registered-qanat-customer;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 165192,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "registered customer \"c0b0248d-c7f1-4589-929d-34f7d000c032\" and Current salary 25000 and amount to borrow 25001 and number of months to pay 36 .",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c0b0248d-c7f1-4589-929d-34f7d000c032",
+                  "offset": 21
+                },
+                {
+                  "val": "25000",
+                  "offset": 78
+                },
+                {
+                  "val": "25001",
+                  "offset": 105
+                },
+                {
+                  "val": "36",
+                  "offset": 139
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.registered_customer_and_Current_salary_and_amount_to_borrow_and_number_of_months_to_pay(String,int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1571903245,
+              "error_message": "java.lang.NullPointerException\n\tat QuoteLoan.processQuote(QuoteLoan.java:44)\n\tat QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)\n\tat ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:8)\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I quote a loan",
+            "match": {
+              "location": "QuoteLoan_step_definitions.i_quote_a_loan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I shoud get \"null\" and \"null\" offered and 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "null",
+                  "offset": 13
+                },
+                {
+                  "val": "null",
+                  "offset": 24
+                },
+                {
+                  "val": "400",
+                  "offset": 42
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.i_shoud_get_and_offered_and(String,String,int)"
+            },
+            "matchedColumns": [
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegisteredQantascustomer"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Quote a loan for unRegistered Qanat customer",
+        "description": "",
+        "id": "loan-quotation-for-qantas-customer;quote-a-loan-for-unregistered-qanat-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 172138,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Unregistered customer \"abdul\" and Current salary 56000 and amount to borrow 1500 and number of months to pay 24 .",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abdul",
+                  "offset": 23
+                },
+                {
+                  "val": "56000",
+                  "offset": 49
+                },
+                {
+                  "val": "1500",
+                  "offset": 76
+                },
+                {
+                  "val": "24",
+                  "offset": 109
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.unregistered_customer_and_Current_salary_and_amount_to_borrow_and_number_of_months_to_pay(String,int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 816298589,
+              "error_message": "java.lang.NullPointerException\n\tat QuoteLoan.processQuote(QuoteLoan.java:44)\n\tat QuoteLoan_step_definitions.i_quote_a_loan(QuoteLoan_step_definitions.java:15)\n\tat ✽.When I quote a loan(LoanQuotationForNewCutomer.feature:25)\n",
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "I quote a loan",
+            "match": {
+              "location": "QuoteLoan_step_definitions.i_quote_a_loan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I shoud get  statusCode 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 24
+                }
+              ],
+              "location": "QuoteLoan_step_definitions.i_shoud_get_statusCode(int)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@NotRegisteredQantasCustomer"
+          }
+        ]
+      }
+    ],
+    "name": "Loan Quotation for Qantas Customer",
+    "description": "As Customer I should be able to quotate Loan",
+    "id": "loan-quotation-for-qantas-customer",
+    "keyword": "Feature",
+    "uri": "LoanQuotationForNewCutomer.feature"
+  }
+]
