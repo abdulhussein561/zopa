@@ -24,6 +24,7 @@ Issues:
         Actual result:
              {"amountToBorrow":1000,"currentSalary":25000,"termLength":12}
                {"message": "1000 is outside the lending range: 1000 <= TOTAL <= 25000"}
+               
     2.2)quoting more than, the maximum accepted returns two objects different, than expected result.
          Expected Result:
                  "A quote decision is returned where quoteOffered = False"
