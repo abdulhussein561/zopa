@@ -1,6 +1,6 @@
 
 Feature: Loan Quotation for Qantas Customer
-  As Customer I should be able to quotate Loan
+  As Customer I should be able to quote Loan
 
   @RegisteredQantascustomer
   Scenario Outline: Quote a loan for Registered Qanat customer
